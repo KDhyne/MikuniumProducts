@@ -113,3 +113,15 @@ if nukeShockwave then
         end
     end
 end
+
+local reactorTechnology = data.raw["technology"]["fission-reactor-equipment"]
+if reactorTechnology then
+    reactorTechnology.icons = util.technology_icon_constant_equipment(modRoot ..
+        "/graphics/technology/fission-reactor-equipment.png")
+end
+
+
+local reactor = data.raw["generator-equipment"]["fission-reactor-equipment"]
+if reactor then
+    reactor.sprite.filename = getNewModPath(reactor.sprite.filename)
+end

@@ -1,0 +1,16 @@
+{
+  "name": "MikuniumProducts",
+  "version": "0.1.3",
+  "title": "Mikunium Products",
+  "author": "KDhynamo",
+  "homepage": "",
+  "contact": "kdhynamo@gmail.com",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0",
+    "? hatsune-enrichment-process",
+    "? RealisticReactorGlow",
+    "(?) RealisticOres"
+  ],
+  "description": "Replace uranium ore, items, and products with Mikunium counterparts. Created to compliment the Hatsune Enrichment Process and Realistic Reactor Glow mod."
+}
